@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
+const port = 3002;
 
 app.get('/', (req, res) => {
-    res.send('Respuesta desde servidor 2 en puerto 3001');
+    res.send('Hello from Server 2!');
 });
 
-app.listen(3001, () => {
-    console.log('Servidor 2 corriendo en puerto 3001');
+app.listen(port, () => {
+    console.log(`Server 2 listening at http://localhost:${port}`);
 });

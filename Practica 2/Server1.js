@@ -5,11 +5,12 @@
 
 const express = require('express');
 const app = express();
+const port = 3001;
 
 app.get('/', (req, res) => {
-    res.send('Respuesta desde servidor 1 en puerto 3000');
+    res.send('Hello from Server 1!');
 });
 
-app.listen(3000, () => {
-    console.log('Servidor 1 corriendo en puerto 3000');
+app.listen(port, () => {
+    console.log(`Server 1 listening at http://localhost:${port}`);
 });
