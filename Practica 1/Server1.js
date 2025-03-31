@@ -1,3 +1,8 @@
+//INTEGRANTES
+// Juan Pablo Franco Herrera
+// Santiago Collantes Nieto
+// Fernando Salazar Serrano
+
 const express = require('express');
 const app = express();
 
