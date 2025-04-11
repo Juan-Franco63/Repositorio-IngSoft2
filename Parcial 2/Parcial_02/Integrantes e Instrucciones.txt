@@ -1,0 +1,10 @@
+Integrantes:
+- Santiago Collantes y Juan Pablo Franco
+
+Instrucciones: 
+hacer estos pasos para correr el codigo:
+1. cd '.\Parcial 2\'
+2. cd .\Parcial_02\
+3. python .\main_gui.py
+
+main.py es para correrlo en consola, gui.py es para la ventana

@@ -1,0 +1,12 @@
+[
+    {
+        "descripcion": "Tarea 1",
+        "completada": false,
+        "tipo": "normal"
+    },
+    {
+        "descripcion": "Tarea 2",
+        "completada": false,
+        "tipo": "importante"
+    }
+]
